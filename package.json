@@ -1,0 +1,12 @@
+{
+  "name": "backend-vercel",
+  "version": "1.0.0",
+  "description": "trying to deploy a backend to vercel",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts"
+  },
+  "author": "corrumptus",
+  "license": "ISC"
+}
