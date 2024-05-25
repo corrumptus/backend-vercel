@@ -4,7 +4,8 @@
   "description": "trying to deploy a backend to vercel",
   "main": "src/index.ts",
   "scripts": {
-    "dev": "ts-node-dev src/index.ts"
+    "build": "tsc",
+    "dev": "node dist/index.js"
   },
   "author": "corrumptus",
   "license": "ISC",
